@@ -7,7 +7,6 @@ import json
 import os
 
 CONFIG_FILE = "config.json"
-#pyinstaller --onefile --windowed your_script.py
 
 class HotkeySoundApp:
     def __init__(self, root):
@@ -126,8 +125,6 @@ class HotkeySoundApp:
     def play_sound(self, file_path):
         sound = pygame.mixer.Sound(file_path)
         sound.play()
-        """ while pygame.mixer.get_busy():
-            pygame.time.Clock().tick(10) """
 
     def for_canonical(self, f):
         return lambda k: f(self.listener.canonical(k))

@@ -2,6 +2,8 @@
 
 Hotkey Sound Player is a simple application that allows you to play sound files using custom hotkey combinations. It provides an easy-to-use graphical interface to set up and manage your hotkey-sound pairs.
 
+![image](https://github.com/user-attachments/assets/8a8c7633-58b4-43cc-b2a5-1ffff51ebb20)
+
 ## Features
 
 - Select and play sound files using custom hotkey combinations
